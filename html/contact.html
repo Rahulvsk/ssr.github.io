@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../public/css/index.css">
+    <link rel="stylesheet" href="../public/css/about.css">
+    <link rel="stylesheet" href="../public/css/contact.css">
+    <script src="../public/js/contact.js"></script>
+    <title>Hello, world!</title>
+    <style>
+      @media only screen and (max-width: 425px) {
+    .donn {
+        background-color: rgb(17, 158, 179);
+        width: 184px;
+}
+}
+@media only screen and (max-width: 425px){
+.donn {
+    background-color: rgb(17, 158, 179);
+    width: 72px;
+    font-size: 8px;
+}
+}
+      .donatebtn{
+        display: none;
+      }
+      @media only screen and (max-width: 990px) {
+        .donatebtn{
+        display: block;
+      }
+}
+    </style>
+</head>
+<body>
+  <div class="container">
+    <img src="../public/image/KAVYA DEVELOPMENT FOUNDATIONed.png" class="img-fluid" alt="">
+  </div>
+     <div style="background-color: rgb(4, 4, 47);">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(4, 4, 47);height:70px" >
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+                style="fill:#000000;">
+                <g fill="#e8dbdb" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"></path></g></g>
+                </svg>
+              </span>
+              <span class="donatebtn" style="display:none;border:2px solid red">
+                <span >
+                  <button type="button " class="btn  don don0 donatebtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Donation
+                  </button>
+                 </span>
+                  <span class="navbar-text">
+                      <button type="button  " class="btn  don donn donatebtn" data-bs-toggle="modal" data-bs-target="#UPIexampleModal">
+                        Donate by PAYTM / UPI
+                      </button>
+                    </span>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText" style="background-color: rgb(4, 4, 47);z-index: 1000;">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active navtext" style="background-color: green; color: white; "aria-current="page" href="../index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navtext" style="color: white;"  href="about.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navtext"  style="color: white;" href="contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navtext"  style="color: white;" href="our_work.html">OUR WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navtext"  style="color: white;" href="resource.html">RESOURSE CENTER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navtext"  style="color: white;" href="html/serve.html">SERVIST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navtext"  style="color: white;" href="media.html">MEDIA</a>
+                </li>
+                
+              </ul>
+              <!-- <span class="navbar-text">
+                <button class="don don0">Donatation</button>
+              </span> -->
+             <span>
+              <button type="button " class="btn  don don0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Donation
+              </button>
+             </span>
+              <span class="navbar-text">
+                  <button type="button " class="btn  donn don1 btn  don don0 " data-bs-toggle="modal" data-bs-target="#UPIexampleModal" style="margin-right: 10px;">
+                    Donate by PAYTM / UPI
+                  </button>
+                </span>
+                <span class="navbar-text">
+                  <ul class="social-icon1">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                </ul>
+                </span>
+            </div>
+          </div>
+        </nav>
+      </div>
+     </div>
+  
+  
+  
+        <!-- model -->
+       <!-- Button trigger modal -->
+  
+  
+  <!--    Donation Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Donate by PAYTM / UPI -->
+  
+  
+  <div class="modal fade" id="UPIexampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"  id="exampleModalLabel"> Donate by PAYTM / UPI </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row container">
+            <img src="../serving_bharat/public/image/29853179_SPM_PUNB000003388838-919170897734_11-10-2023_20_43_07_page-0001.jpg" alt="">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+    </div>
+  </div>
+
+<!-- contact us -->
+<div style="background-color: white; height:1px;"></div>
+      <div style="background-color: rgb(167, 164, 164); height: 3px;"></div>
+      <div class="container-fluid" style="background-color:  rgb(4, 4, 47);">
+        <div class="container">
+            <p class="link" style="color: white;padding-top: 15px;">
+                <a href="Home" style="color: green;">Home</a> 
+            </p>
+            <h1 class="about" style="padding-bottom: 10px;">Contact</h1> 
+        </div>
+      </div>
+<div class="container">
+    <div class="row pt-3 pb-3 text-muted">
+     
+        <div class="col-md-6">
+          <form action="" name="myForm"  onsubmit="return validateForm()" method="">
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Name<span style="color: red;">*</span></label>
+              <input type="text" class="form-control name" name="" id="name">
+              <span class="fiiname"  id="myDIV11">Please Enter Name</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email<span style="color: red;">*</span></label>
+              <input type="email" class="form-control email" name="" id="email" >
+              <span class="fiiname"  id="myDIV12">Please Enter EmailId</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Mobile Number<span style="color: red;">*</span></label>
+              <input type="text" class="form-control mobile" name="" id="mobile" >
+              <span class="fiiname"  id="myDIV13">Please Enter Mobile Number</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control sms" id="sms" name="" rows="6"></textarea>
+              <span class="fiiname"  id="myDIV14">Please Enter Message</span>
+              </div>
+              <div class="mb-3">
+              <button type="submit" class="btn btn-success">Send </button>
+            </div>
+      </div>
+      </form>
+        
+        <div class="col-md-6">
+            <div>
+            <h4 style="color: rgb(8, 148, 8);padding: 10px 0 10px 0;">Get in <b> Touch</b></h4>
+            <p style="font-size: 15px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore esse, voluptatum laudantium dolores nemo accusamus.</p>
+        </div>
+        <hr>
+            <div>
+            <h4 style="color: rgb(8, 148, 8); padding: 10px 0 10px 0;">The <b>Office</b></h4>
+            <p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae perspiciatis officiis, obcaecati quidem placeat totam.</p>
+        </div>
+        <hr>
+        <div>
+            <h4 style="color:rgb(8, 148, 8); padding: 10px 0 10px 0;"> Business<b> Hours</b></h4><p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit similique eius odit enim repellat quae.</p>
+        </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container" style="color: rgb(132, 125, 125);">
+                <!-- <div class="footer-day-time">
+                   <div class="row">
+                       <div class="col-md-8">
+                           <ul>
+                               <li>Opening Hours: Mon - Friday: 8AM - 5PM</li>
+                               <li>Sunday: 8:00 AM - 12:00 PM</li>
+                           </ul>
+                       </div>
+                       <div class="col-lg-4">
+                           <div class="phone-no">
+                               <a href="tel:+12 34 56 78 90"><i class="fa fa-mobile" aria-hidden="true"></i>Call +12 34 56 78 90</a>
+                           </div>
+                       </div>
+                   </div>
+               </div> -->
+                <div class="row">
+                    <div class="col-lg-3">
+
+                        <h3 class="light" style="color: white;">Newsletter</h3>
+                        <p>Enter your e-mail and subscribe to our newsletter. </p>
+                        <form id="form">
+                            <label for="email"> Email <span style="color: red;">*</span> </label>
+                            <br>
+                            <input type="email" name="email" id="email" style="margin-top: 10px;" />
+                            <button id="submit">Subscribe</button>
+
+                            <span role="alert" id="nameError" aria-hidden="true">
+                                Please enter First Name
+                            </span>
+                        </form>
+
+                    </div>
+
+
+
+                    <div class="col-md-3">
+                        <h3 class="light" style="color: white;">Tweeter Feed</h3>
+                        <p>No Tweets to display, check your settings.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="light" style="color: white;">Contact</h3>
+                        <ul class="address1">
+                            <li><i class="fa fa-map-marker"></i>Lorem Ipsum 132 xyz Lorem Ipsum</li>
+                            <li><i class="fa fa-envelope"></i><a href="mailto:#" style="color: gray;">info@test.com</a>
+                            </li>
+                            <li><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:12 34 56 78 90"
+                                    style="color: gray;">12 34 56 78 90</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="light" style="color: white;">Follow us</h3>
+                        <ul class="social-icon">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+</body>
+
+</html>

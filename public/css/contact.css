@@ -1,0 +1,25 @@
+.fillmessage{
+    display: none;
+    margin-top: 0px;
+  }
+  .fiiname,.fillemail{
+    display: none;
+    margin-top:-1px;
+  }
+  .mystyle{
+    display: block !important;
+    color: red !important;
+    font-size: 14px;
+  }
+  .fiiname1{
+    display: none !important;
+  }.sub-locat{
+    border: 1px solid red !important;
+  }
+  input{
+    outline: none;
+    border: none;
+  }
+  .nav-item{
+    margin-left: 5px;
+}

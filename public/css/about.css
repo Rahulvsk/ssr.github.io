@@ -1,0 +1,24 @@
+.para1{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.para2{
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: blueviolet;
+}
+.about {
+    font-weight: 320;
+    color: white;
+
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.nav-item{
+    margin-left: 5px;
+}
